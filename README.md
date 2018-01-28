@@ -1,2 +1,6 @@
-# HeadFirstDesignPatternsCpp
-An implementation of "Head First Design Patterns" in C++
+# Head First Design Patterns in C++
+This repository contains sample code in C++ based on the book, "[Head First Design Patterns](http://shop.oreilly.com/product/9780596007126.do)", by Freeman & Robson, published by O'Reilly.
+
+The original sample code in Java, which the book's examples are based on, can be found here: https://github.com/bethrobson/Head-First-Design-Patterns.
+
+- Each chapter has its own Xcode project and C++ source files that produce a command line executable.
