@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Cpp/Strategy Pattern/Strategy Pattern.xcodeproj">
+      location = "group:Strategy Pattern/Strategy Pattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Observer Pattern/Observer Pattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Decorator Pattern/Decorator Pattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Factory Pattern/Factory Pattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Singleton Pattern/Singleton Pattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Command Pattern/Command Pattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Adapter and Facade/Adapter and Facade.xcodeproj">
    </FileRef>
 </Workspace>
