@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D733BEE20336ACF006C8694 /* HouseBlend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733BEC20336ACF006C8694 /* HouseBlend.cpp */; };
+		3D733BF120336AE2006C8694 /* DarkRoast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733BEF20336AE2006C8694 /* DarkRoast.cpp */; };
+		3D733BF420336AED006C8694 /* Decaf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733BF220336AED006C8694 /* Decaf.cpp */; };
+		3D733C0020336C49006C8694 /* Milk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733BFE20336C49006C8694 /* Milk.cpp */; };
+		3D733C0320336CEB006C8694 /* Mocha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733C0120336CEB006C8694 /* Mocha.cpp */; };
+		3D733C0620336CFB006C8694 /* Soy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733C0420336CFB006C8694 /* Soy.cpp */; };
+		3D733C0920336D05006C8694 /* Whip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733C0720336D05006C8694 /* Whip.cpp */; };
+		3DE5F6FD20324CC50033BA18 /* Espresso.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5F6FB20324CC50033BA18 /* Espresso.cpp */; };
 		B66DFE0F20273C7400C180B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66DFE0E20273C7400C180B4 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +31,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D733BEC20336ACF006C8694 /* HouseBlend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HouseBlend.cpp; sourceTree = "<group>"; };
+		3D733BED20336ACF006C8694 /* HouseBlend.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HouseBlend.hpp; sourceTree = "<group>"; };
+		3D733BEF20336AE2006C8694 /* DarkRoast.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DarkRoast.cpp; sourceTree = "<group>"; };
+		3D733BF020336AE2006C8694 /* DarkRoast.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DarkRoast.hpp; sourceTree = "<group>"; };
+		3D733BF220336AED006C8694 /* Decaf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Decaf.cpp; sourceTree = "<group>"; };
+		3D733BF320336AED006C8694 /* Decaf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Decaf.hpp; sourceTree = "<group>"; };
+		3D733BFB20336C49006C8694 /* Milk.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Milk.hpp; sourceTree = "<group>"; };
+		3D733BFC20336C49006C8694 /* CondimentDecorator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CondimentDecorator.hpp; sourceTree = "<group>"; };
+		3D733BFE20336C49006C8694 /* Milk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Milk.cpp; sourceTree = "<group>"; };
+		3D733C0120336CEB006C8694 /* Mocha.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mocha.cpp; sourceTree = "<group>"; };
+		3D733C0220336CEB006C8694 /* Mocha.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mocha.hpp; sourceTree = "<group>"; };
+		3D733C0420336CFB006C8694 /* Soy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Soy.cpp; sourceTree = "<group>"; };
+		3D733C0520336CFB006C8694 /* Soy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Soy.hpp; sourceTree = "<group>"; };
+		3D733C0720336D05006C8694 /* Whip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Whip.cpp; sourceTree = "<group>"; };
+		3D733C0820336D05006C8694 /* Whip.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Whip.hpp; sourceTree = "<group>"; };
+		3DE5F6F6203248FE0033BA18 /* Beverage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Beverage.hpp; sourceTree = "<group>"; };
+		3DE5F6FB20324CC50033BA18 /* Espresso.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Espresso.cpp; sourceTree = "<group>"; };
+		3DE5F6FC20324CC50033BA18 /* Espresso.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Espresso.hpp; sourceTree = "<group>"; };
 		B66DFE0B20273C7400C180B4 /* Decorator Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Decorator Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66DFE0E20273C7400C180B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +64,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D733BF520336BAF006C8694 /* Beverages */ = {
+			isa = PBXGroup;
+			children = (
+				3DE5F6F6203248FE0033BA18 /* Beverage.hpp */,
+				3D733BEF20336AE2006C8694 /* DarkRoast.cpp */,
+				3D733BF020336AE2006C8694 /* DarkRoast.hpp */,
+				3D733BF220336AED006C8694 /* Decaf.cpp */,
+				3D733BF320336AED006C8694 /* Decaf.hpp */,
+				3DE5F6FB20324CC50033BA18 /* Espresso.cpp */,
+				3DE5F6FC20324CC50033BA18 /* Espresso.hpp */,
+				3D733BEC20336ACF006C8694 /* HouseBlend.cpp */,
+				3D733BED20336ACF006C8694 /* HouseBlend.hpp */,
+			);
+			name = Beverages;
+			sourceTree = "<group>";
+		};
+		3D733BFA20336C23006C8694 /* Condiments */ = {
+			isa = PBXGroup;
+			children = (
+				3D733BFC20336C49006C8694 /* CondimentDecorator.hpp */,
+				3D733BFE20336C49006C8694 /* Milk.cpp */,
+				3D733BFB20336C49006C8694 /* Milk.hpp */,
+				3D733C0120336CEB006C8694 /* Mocha.cpp */,
+				3D733C0220336CEB006C8694 /* Mocha.hpp */,
+				3D733C0420336CFB006C8694 /* Soy.cpp */,
+				3D733C0520336CFB006C8694 /* Soy.hpp */,
+				3D733C0720336D05006C8694 /* Whip.cpp */,
+				3D733C0820336D05006C8694 /* Whip.hpp */,
+			);
+			name = Condiments;
+			sourceTree = "<group>";
+		};
 		B66DFE0220273C7400C180B4 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +115,8 @@
 		B66DFE0D20273C7400C180B4 /* Decorator Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				3D733BF520336BAF006C8694 /* Beverages */,
+				3D733BFA20336C23006C8694 /* Condiments */,
 				B66DFE0E20273C7400C180B4 /* main.cpp */,
 			);
 			path = "Decorator Pattern";
@@ -119,7 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D733BF120336AE2006C8694 /* DarkRoast.cpp in Sources */,
+				3D733BEE20336ACF006C8694 /* HouseBlend.cpp in Sources */,
+				3D733C0320336CEB006C8694 /* Mocha.cpp in Sources */,
+				3D733C0020336C49006C8694 /* Milk.cpp in Sources */,
+				3DE5F6FD20324CC50033BA18 /* Espresso.cpp in Sources */,
 				B66DFE0F20273C7400C180B4 /* main.cpp in Sources */,
+				3D733C0620336CFB006C8694 /* Soy.cpp in Sources */,
+				3D733BF420336AED006C8694 /* Decaf.cpp in Sources */,
+				3D733C0920336D05006C8694 /* Whip.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
