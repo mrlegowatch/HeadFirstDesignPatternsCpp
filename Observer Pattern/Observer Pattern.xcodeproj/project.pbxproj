@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B66DFDFC20273BD600C180B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66DFDFB20273BD600C180B4 /* main.cpp */; };
+		D72091D1203478B9007FC8FB /* WeatherData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D72091CF203478B9007FC8FB /* WeatherData.cpp */; };
+		D72091D420347B19007FC8FB /* CurrentConditionsDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D72091D220347B19007FC8FB /* CurrentConditionsDisplay.cpp */; };
+		D72091D820347CC5007FC8FB /* ForecastDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D72091D620347CC5007FC8FB /* ForecastDisplay.cpp */; };
+		D72091DB20347CD8007FC8FB /* StatisticsDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D72091D920347CD8007FC8FB /* StatisticsDisplay.cpp */; };
+		D72091DE20347F47007FC8FB /* HeatIndexDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D72091DC20347F47007FC8FB /* HeatIndexDisplay.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,19 @@
 /* Begin PBXFileReference section */
 		B66DFDF820273BD600C180B4 /* Observer Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Observer Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66DFDFB20273BD600C180B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D72091CD2034778B007FC8FB /* Subject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Subject.hpp; sourceTree = "<group>"; };
+		D72091CE20347875007FC8FB /* Observer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Observer.hpp; sourceTree = "<group>"; };
+		D72091CF203478B9007FC8FB /* WeatherData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WeatherData.cpp; sourceTree = "<group>"; };
+		D72091D0203478B9007FC8FB /* WeatherData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WeatherData.hpp; sourceTree = "<group>"; };
+		D72091D220347B19007FC8FB /* CurrentConditionsDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CurrentConditionsDisplay.cpp; sourceTree = "<group>"; };
+		D72091D320347B19007FC8FB /* CurrentConditionsDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CurrentConditionsDisplay.hpp; sourceTree = "<group>"; };
+		D72091D520347C52007FC8FB /* DisplayElement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DisplayElement.hpp; sourceTree = "<group>"; };
+		D72091D620347CC5007FC8FB /* ForecastDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ForecastDisplay.cpp; sourceTree = "<group>"; };
+		D72091D720347CC5007FC8FB /* ForecastDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ForecastDisplay.hpp; sourceTree = "<group>"; };
+		D72091D920347CD8007FC8FB /* StatisticsDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StatisticsDisplay.cpp; sourceTree = "<group>"; };
+		D72091DA20347CD8007FC8FB /* StatisticsDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StatisticsDisplay.hpp; sourceTree = "<group>"; };
+		D72091DC20347F47007FC8FB /* HeatIndexDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeatIndexDisplay.cpp; sourceTree = "<group>"; };
+		D72091DD20347F47007FC8FB /* HeatIndexDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HeatIndexDisplay.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,19 @@
 			isa = PBXGroup;
 			children = (
 				B66DFDFB20273BD600C180B4 /* main.cpp */,
+				D72091CD2034778B007FC8FB /* Subject.hpp */,
+				D72091CE20347875007FC8FB /* Observer.hpp */,
+				D72091CF203478B9007FC8FB /* WeatherData.cpp */,
+				D72091D0203478B9007FC8FB /* WeatherData.hpp */,
+				D72091D220347B19007FC8FB /* CurrentConditionsDisplay.cpp */,
+				D72091D320347B19007FC8FB /* CurrentConditionsDisplay.hpp */,
+				D72091D520347C52007FC8FB /* DisplayElement.hpp */,
+				D72091D620347CC5007FC8FB /* ForecastDisplay.cpp */,
+				D72091D720347CC5007FC8FB /* ForecastDisplay.hpp */,
+				D72091D920347CD8007FC8FB /* StatisticsDisplay.cpp */,
+				D72091DA20347CD8007FC8FB /* StatisticsDisplay.hpp */,
+				D72091DC20347F47007FC8FB /* HeatIndexDisplay.cpp */,
+				D72091DD20347F47007FC8FB /* HeatIndexDisplay.hpp */,
 			);
 			path = "Observer Pattern";
 			sourceTree = "<group>";
@@ -119,6 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72091D420347B19007FC8FB /* CurrentConditionsDisplay.cpp in Sources */,
+				D72091D820347CC5007FC8FB /* ForecastDisplay.cpp in Sources */,
+				D72091DB20347CD8007FC8FB /* StatisticsDisplay.cpp in Sources */,
+				D72091DE20347F47007FC8FB /* HeatIndexDisplay.cpp in Sources */,
+				D72091D1203478B9007FC8FB /* WeatherData.cpp in Sources */,
 				B66DFDFC20273BD600C180B4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
