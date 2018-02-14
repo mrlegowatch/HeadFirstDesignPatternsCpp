@@ -1,15 +1,21 @@
 //
 //  main.cpp
-//  Factory Pattern
+//  OnePizzaType
 //
-//  Created by Brian Arnold on 2/4/18.
+//  Created by Cindy Solomon on 2/13/18.
 //  Copyright © 2018 Brian Arnold. All rights reserved.
 //
 
 #include <iostream>
+#include "OnePizzaType.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+
+    Pizza basicPizza;
+
+    basicPizza = orderPizza();
+
     return 0;
+
 }
