@@ -5,7 +5,7 @@ The original sample code in Java, which the book's examples are based on, can be
 
 This code has been developed as part of a **Book Club** I am running with members of my team.
 
-- Each chapter has its own Xcode project and C++ source files that produce a command line executable.
+Each chapter has its own Xcode project and C++ source files that produce a command line executable. Where relevant, comments with "IN C++" indictate deviations from the Java sample code, in order to conform to C++ requirements or best practices.
 
 ## Chapters
 * Strategy Pattern
