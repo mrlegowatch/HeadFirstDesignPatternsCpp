@@ -16,7 +16,7 @@
 #include <iostream>
 
 DecoyDuck::DecoyDuck() :
-    Duck(std::make_shared<FlyNoWay>(), std::make_shared<MuteQuack>()) {
+    Duck(std::make_unique<FlyNoWay>(), std::make_unique<MuteQuack>()) {
 }
 
 void DecoyDuck::display() const {

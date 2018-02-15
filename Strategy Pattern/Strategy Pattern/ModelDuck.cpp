@@ -16,7 +16,7 @@
 #include <iostream>
 
 ModelDuck::ModelDuck() :
-    Duck(std::make_shared<FlyNoWay>(), std::make_shared<Quack>()) {
+    Duck(std::make_unique<FlyNoWay>(), std::make_unique<Quack>()) {
 }
 
 void ModelDuck::display() const {

@@ -16,7 +16,7 @@
 #include <iostream>
 
 MallardDuck::MallardDuck() :
-    Duck(std::make_shared<FlyWithWings>(), std::make_shared<Quack>()) {
+    Duck(std::make_unique<FlyWithWings>(), std::make_unique<Quack>()) {
 }
 
 void MallardDuck::display() const {
