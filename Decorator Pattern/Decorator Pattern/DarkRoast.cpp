@@ -8,8 +8,8 @@
 
 #include "DarkRoast.hpp"
 
-DarkRoast::DarkRoast() {
-    description = "Dark Roast Coffee";
+std::string DarkRoast::getDescription() const {
+    return "Dark Roast Coffee";
 }
 
 double DarkRoast::cost() const {

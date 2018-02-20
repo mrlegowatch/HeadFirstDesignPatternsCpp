@@ -8,8 +8,8 @@
 
 #include "Espresso.hpp"
 
-Espresso::Espresso() {
-    description = "Espresso";
+std::string Espresso::getDescription() const {
+    return "Espresso";
 }
 
 double Espresso::cost() const {

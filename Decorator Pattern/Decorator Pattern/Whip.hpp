@@ -13,8 +13,7 @@
 
 class Whip: public CondimentDecorator {
 public:
-    Beverage *beverage;
-    Whip(Beverage *beverage);
+    Whip(std::unique_ptr<Beverage> & bev);
     std::string getDescription() const override;
     double cost() const override;
 };

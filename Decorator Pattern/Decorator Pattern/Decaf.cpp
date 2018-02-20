@@ -8,8 +8,8 @@
 
 #include "Decaf.hpp"
 
-Decaf::Decaf() {
-    description = "Decaf";
+std::string Decaf::getDescription() const {
+    return "Decaf";
 }
 
 double Decaf::cost() const {

@@ -12,14 +12,10 @@
 #include <string>
 
 class Beverage {
-    
-    public:
-    std::string description = "Unknown Beverage";
-
-    // not a pure virtual (has default implementation)
-    virtual std::string getDescription() const { return description; };
-    
-    // pure virtual (must be overridden)
+// pure abstract class!
+public:
+    virtual ~Beverage() = default;
+    virtual std::string getDescription() const = 0;
     virtual double cost() const = 0;
 };
 

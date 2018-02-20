@@ -12,9 +12,8 @@
 #include "Beverage.hpp"
 
 class CondimentDecorator: public Beverage {
-    public:
-    // this needs to be a pure virtual here
-    std::string getDescription() const override = 0;
+protected:
+    std::unique_ptr<Beverage> beverage;
 };
 
 #endif /* CondimentDecorator_hpp */
