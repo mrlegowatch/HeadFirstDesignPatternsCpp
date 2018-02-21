@@ -8,7 +8,7 @@
 
 #include "WeatherData.hpp"
 #include "Observer.hpp"
-
+namespace weather {
 void WeatherData::registerObserver(Observer* o) {
   observers.push_back(o);
 }
@@ -36,4 +36,5 @@ void WeatherData::notifyObservers() {
   for (auto observer : observers) {
     observer->update(temperature, humidity, pressure);
   }
+}
 }

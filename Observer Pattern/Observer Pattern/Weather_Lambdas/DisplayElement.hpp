@@ -8,11 +8,11 @@
 
 #ifndef DisplayElement_h
 #define DisplayElement_h
-
-class DisplayElement {
-public:
-  virtual ~DisplayElement() = default;
-  virtual void display() const = 0;
-};
-
+namespace wf {
+  class DisplayElement {
+  public:
+    virtual ~DisplayElement() = default;
+    virtual void display() const = 0;
+  };
+}
 #endif /* DisplayElement_h */
