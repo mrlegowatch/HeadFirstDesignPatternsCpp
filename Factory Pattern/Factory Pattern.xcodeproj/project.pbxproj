@@ -221,8 +221,7 @@
 				EE85C74C2034821D00F4FACE /* main.cpp */,
 				EE85C74B2034821D00F4FACE /* MultiplePizzaTypes.hpp */,
 			);
-			name = MultiplePizzaTypes;
-			path = "New Group";
+			path = MultiplePizzaTypes;
 			sourceTree = "<group>";
 		};
 		EEEDEECD20337B8B00E8C942 /* OnePizzaType */ = {
