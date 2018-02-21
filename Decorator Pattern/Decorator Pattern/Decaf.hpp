@@ -13,7 +13,7 @@
 
 class Decaf: public Beverage {
 public:
-    Decaf();
+    std::string getDescription() const override;
     double cost() const override;
 };
 

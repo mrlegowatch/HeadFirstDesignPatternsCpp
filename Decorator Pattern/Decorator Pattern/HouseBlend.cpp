@@ -8,8 +8,8 @@
 
 #include "HouseBlend.hpp"
 
-HouseBlend::HouseBlend() {
-    description = "House Blend Coffee";
+std::string HouseBlend::getDescription() const {
+    return "House Blend Coffee";
 }
 
 double HouseBlend::cost() const {

@@ -8,8 +8,8 @@
 
 #include "Mocha.hpp"
 
-Mocha::Mocha(Beverage *beverage) {
-    this->beverage = beverage;
+Mocha::Mocha(std::unique_ptr<Beverage> & bev) {
+    beverage = std::move(bev);
 }
 
 std::string Mocha::getDescription() const {

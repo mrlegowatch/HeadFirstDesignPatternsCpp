@@ -8,8 +8,8 @@
 
 #include "Soy.hpp"
 
-Soy::Soy(Beverage *beverage) {
-    this->beverage = beverage;
+Soy::Soy(std::unique_ptr<Beverage> & bev) {
+    beverage = std::move(bev);
 }
 
 std::string Soy::getDescription() const {

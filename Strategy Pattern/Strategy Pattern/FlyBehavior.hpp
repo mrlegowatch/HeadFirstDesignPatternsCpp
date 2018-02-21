@@ -15,6 +15,9 @@
 class FlyBehavior {
 public:
     virtual void fly() const = 0;
+    
+    // IN C++: a base class with virtual functions must also have a virtual destructor.
+    virtual ~FlyBehavior() = default;
 };
 
 #endif /* FlyBehavior_hpp */

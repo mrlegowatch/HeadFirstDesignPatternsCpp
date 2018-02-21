@@ -8,8 +8,8 @@
 
 #include "Milk.hpp"
 
-Milk::Milk(Beverage *beverage) {
-    this->beverage = beverage;
+Milk::Milk(std::unique_ptr<Beverage> &bev) {
+    beverage = std::move(bev);
 }
 
 std::string Milk::getDescription() const {

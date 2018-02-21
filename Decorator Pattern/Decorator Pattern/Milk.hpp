@@ -13,8 +13,7 @@
 
 class Milk: public CondimentDecorator {
 public:
-    Beverage *beverage;
-    Milk(Beverage *beverage);
+    Milk(std::unique_ptr<Beverage> & bev);
     std::string getDescription() const override;
     double cost() const override;
 };

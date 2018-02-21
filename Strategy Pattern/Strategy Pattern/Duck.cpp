@@ -15,9 +15,9 @@
 
 #include <iostream>
 
-Duck::Duck(const std::shared_ptr<FlyBehavior>& flyBehavior, const std::shared_ptr<QuackBehavior>& quackBehavior) :
-    flyBehavior(flyBehavior),
-    quackBehavior(quackBehavior) {
+Duck::Duck(std::unique_ptr<FlyBehavior> flyBehavior, std::unique_ptr<QuackBehavior> quackBehavior) :
+    flyBehavior(std::move(flyBehavior)),
+    quackBehavior(std::move(quackBehavior)) {
 }
 
 void Duck::performQuack() const {

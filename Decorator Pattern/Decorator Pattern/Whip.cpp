@@ -8,8 +8,8 @@
 
 #include "Whip.hpp"
 
-Whip::Whip(Beverage *beverage) {
-    this->beverage = beverage;
+Whip::Whip(std::unique_ptr<Beverage> & bev) {
+    beverage = std::move(bev);
 }
 
 std::string Whip::getDescription() const {

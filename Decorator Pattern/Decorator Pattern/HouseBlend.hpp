@@ -13,7 +13,7 @@
 
 class HouseBlend: public Beverage {
 public:
-    HouseBlend();
+    std::string getDescription() const override;
     double cost() const override;
 };
 

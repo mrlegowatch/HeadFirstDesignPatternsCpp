@@ -15,6 +15,9 @@
 class QuackBehavior {
 public:
     virtual void quack() const = 0;
+    
+    // IN C++: a base class with virtual functions must also have a virtual destructor.
+    virtual ~QuackBehavior() = default;
 };
 
 #endif /* QuackBehavior_hpp */

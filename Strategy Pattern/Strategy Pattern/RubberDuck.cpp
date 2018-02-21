@@ -16,7 +16,7 @@
 #include <iostream>
 
 RubberDuck::RubberDuck() :
-    Duck(std::make_shared<FlyNoWay>(), std::make_shared<Squeak>()) {
+    Duck(std::make_unique<FlyNoWay>(), std::make_unique<Squeak>()) {
 }
 
 void RubberDuck::display() const {
