@@ -8,8 +8,7 @@
 
 #include "Soy.hpp"
 
-Soy::Soy(std::unique_ptr<Beverage> & bev) {
-    beverage = std::move(bev);
+Soy::Soy(std::unique_ptr<Beverage> beverage) : CondimentDecorator(std::move(beverage)) {
 }
 
 std::string Soy::getDescription() const {

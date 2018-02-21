@@ -13,7 +13,7 @@
 
 class Soy: public CondimentDecorator {
 public:
-    Soy(std::unique_ptr<Beverage> & bev);
+    Soy(std::unique_ptr<Beverage> beverage);
     std::string getDescription() const override;
     double cost() const override;
 };

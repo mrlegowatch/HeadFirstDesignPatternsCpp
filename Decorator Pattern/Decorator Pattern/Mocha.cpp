@@ -8,8 +8,7 @@
 
 #include "Mocha.hpp"
 
-Mocha::Mocha(std::unique_ptr<Beverage> & bev) {
-    beverage = std::move(bev);
+Mocha::Mocha(std::unique_ptr<Beverage> beverage) : CondimentDecorator(std::move(beverage)) {
 }
 
 std::string Mocha::getDescription() const {

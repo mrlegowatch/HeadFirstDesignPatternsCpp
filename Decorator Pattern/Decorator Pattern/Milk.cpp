@@ -8,8 +8,7 @@
 
 #include "Milk.hpp"
 
-Milk::Milk(std::unique_ptr<Beverage> &bev) {
-    beverage = std::move(bev);
+Milk::Milk(std::unique_ptr<Beverage> beverage) : CondimentDecorator(std::move(beverage)) {
 }
 
 std::string Milk::getDescription() const {

@@ -8,8 +8,7 @@
 
 #include "Whip.hpp"
 
-Whip::Whip(std::unique_ptr<Beverage> & bev) {
-    beverage = std::move(bev);
+Whip::Whip(std::unique_ptr<Beverage> beverage) : CondimentDecorator(std::move(beverage)){
 }
 
 std::string Whip::getDescription() const {

@@ -13,6 +13,7 @@
 
 class CondimentDecorator: public Beverage {
 protected:
+    CondimentDecorator(std::unique_ptr<Beverage> beverage) : beverage(std::move(beverage)) {};
     std::unique_ptr<Beverage> beverage;
 };
 

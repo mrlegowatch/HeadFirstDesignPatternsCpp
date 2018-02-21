@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2DFFAD203DD2C40050E7C3 /* Mocha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733C0120336CEB006C8694 /* Mocha.cpp */; };
 		3D733BEE20336ACF006C8694 /* HouseBlend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733BEC20336ACF006C8694 /* HouseBlend.cpp */; };
 		3D733BF120336AE2006C8694 /* DarkRoast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733BEF20336AE2006C8694 /* DarkRoast.cpp */; };
 		3D733BF420336AED006C8694 /* Decaf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733BF220336AED006C8694 /* Decaf.cpp */; };
-		3D733C0320336CEB006C8694 /* Mocha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733C0120336CEB006C8694 /* Mocha.cpp */; };
 		3D8F2FFC203CE6A300CEF165 /* Whip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733C0720336D05006C8694 /* Whip.cpp */; };
 		3D8F2FFD203CE78800CEF165 /* Soy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D733C0420336CFB006C8694 /* Soy.cpp */; };
 		3DE5F6FD20324CC50033BA18 /* Espresso.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5F6FB20324CC50033BA18 /* Espresso.cpp */; };
@@ -180,7 +180,7 @@
 			files = (
 				3D733BF120336AE2006C8694 /* DarkRoast.cpp in Sources */,
 				3D733BEE20336ACF006C8694 /* HouseBlend.cpp in Sources */,
-				3D733C0320336CEB006C8694 /* Mocha.cpp in Sources */,
+				3D2DFFAD203DD2C40050E7C3 /* Mocha.cpp in Sources */,
 				3D8F2FFD203CE78800CEF165 /* Soy.cpp in Sources */,
 				3DE5F6FD20324CC50033BA18 /* Espresso.cpp in Sources */,
 				3D8F2FFC203CE6A300CEF165 /* Whip.cpp in Sources */,

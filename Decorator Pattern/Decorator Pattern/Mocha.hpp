@@ -13,7 +13,7 @@
 
 class Mocha: public CondimentDecorator {
 public:
-    Mocha(std::unique_ptr<Beverage> & bev);
+    Mocha(std::unique_ptr<Beverage> beverage);
     std::string getDescription() const override;
     double cost() const override;
 };
