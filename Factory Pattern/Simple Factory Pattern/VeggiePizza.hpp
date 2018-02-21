@@ -1,21 +1,21 @@
 //
-//  ClamPizza.hpp
-//  Factory Pattern
+//  VeggiePizza.hpp
+//  SimpleFactoryPattern
 //
-//  Created by Cindy Solomon on 2/13/18.
+//  Created by Cindy Solomon on 2/20/18.
 //  Copyright © 2018 Brian Arnold. All rights reserved.
 //
 
-#ifndef ClamPizza_hpp
-#define ClamPizza_hpp
+#ifndef VeggiePizza_hpp
+#define VeggiePizza_hpp
 
 #include "Pizza.hpp"
 
-class ClamPizza: public Pizza
+class VeggiePizza: public Pizza
 {
     public:
 
-    ClamPizza();
+    VeggiePizza();
 //    void prepare() override;
 //    void bake() override;
 //    void cut() override;
@@ -23,4 +23,4 @@ class ClamPizza: public Pizza
 
 };
 
-#endif /* ClamPizza_hpp */
+#endif /* VeggiePizza_hpp */

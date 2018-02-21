@@ -16,29 +16,10 @@
 
 class PizzaStore
 {
-    //SimplePizzaFactory factory;
 
 public:
 
-    
-    std::unique_ptr<Pizza> orderPizza(std::string type)
-    {
-       auto pizza = makePizza(type);
-
-        if (pizza != nullptr)
-        {
-            pizza->prepare();
-            pizza->bake();
-            pizza->cut();
-            pizza->box();
-        }
-        else
-        {
-            std::cout << "Not a valid pizza type. I don't know how to make this pizza!!" << std::endl;
-        }
-        return pizza;
-    };
-
+    std::unique_ptr<Pizza> orderPizza(std::string type);
     virtual std::unique_ptr<Pizza> makePizza(std::string type) = 0;
 
 };

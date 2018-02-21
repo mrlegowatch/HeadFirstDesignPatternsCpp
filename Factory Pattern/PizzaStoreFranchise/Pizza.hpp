@@ -8,15 +8,32 @@
 #ifndef Pizza_hpp
 #define Pizza_hpp
 
+#include <string>
+#include <vector>
+#include <iostream>
+
+
 class Pizza
 {
-public:
+    public:
+    std::string name;
+    std::string dough;
+    std::string sauce;
+    std::vector<std::string> toppings;
 
-    virtual void prepare()  = 0;
-    virtual void bake()     = 0;
-    virtual void cut()      = 0;
-    virtual void box()      = 0;
-    virtual ~Pizza(){}
+    const std::string& getName() const;
+
+    virtual void prepare() const;
+    virtual void bake() const;
+    virtual void cut() const;
+    virtual void box()  const;
+    virtual ~Pizza() = default;
+
+    //std::ostream& operator<<(std::ostream& os);
 };
 
+std::ostream& operator<<(std::ostream& os, const Pizza& pizza);
+
+
 #endif /* Pizza_hpp */
+

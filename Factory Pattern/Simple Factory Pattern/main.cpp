@@ -18,8 +18,13 @@ int main(int argc, const char * argv[])
 
     PizzaStore pizzaStore(factory);
 
-    pizzaStore.orderPizza("cheese");
-    pizzaStore.orderPizza("deep dish");
+    auto pizza = pizzaStore.orderPizza("cheese");
+    std::cout << "We ordered a " + pizza->getName() << std::endl;
+    std::cout << *pizza;
+
+    auto vegPizza = pizzaStore.orderPizza("veggie");
+    std::cout << "We ordered a " + vegPizza->getName() << std::endl;
+    std::cout << *vegPizza;
 
     return 0;
 }

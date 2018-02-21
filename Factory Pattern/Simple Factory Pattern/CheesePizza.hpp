@@ -15,10 +15,11 @@ class CheesePizza: public Pizza
 {
     public:
 
-    void prepare() override;
-    void bake() override;
-    void cut() override;
-    void box() override;
+    CheesePizza();
+//    void prepare() override;
+//    void bake() override;
+//    void cut() override;
+//    void box() override;
 
 };
 

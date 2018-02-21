@@ -9,23 +9,11 @@
 #include "ChicagoStyleCheesePizza.hpp"
 #include <iostream>
 
-void ChicagoStyleCheesePizza::prepare()
+ChicagoStyleCheesePizza::ChicagoStyleCheesePizza()
 {
-    std::cout << "Preparing Chicago style " << std::endl;
-}
-
-void ChicagoStyleCheesePizza::bake()
-{
-    std::cout << "Baking Chicago style" << std::endl;
-}
-
-void ChicagoStyleCheesePizza::cut()
-{
-    std::cout << "Cutting Chicago style" << std::endl;
-}
-
-void ChicagoStyleCheesePizza::box()
-{
-    std::cout << "Boxing Chicago style" << std::endl;
+    name = "Chicago Style Deep Dish Pizza";
+    dough = "Extra thick crust dough";
+    sauce = "Plum tomato sauce";
+    toppings.push_back("Shredded mozzarella");
 }
 

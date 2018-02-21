@@ -13,13 +13,13 @@
 
 int main(int argc, const char * argv[])
 {
-    // insert code here...
+    //auto nyStore = new NYPizzaStore();
+    auto chicagoStore = new ChicagoPizzaStore();
 
-    auto pizzaStore = new ChicagoPizzaStore();
+    auto chicagoCheese = chicagoStore->orderPizza("cheese");
 
-    pizzaStore->orderPizza("cheese");
-    pizzaStore->orderPizza("pepperoni");
-    pizzaStore->orderPizza("deep dish");
+    auto chicagoPepperoni = chicagoStore->orderPizza("pepperoni");
+
 
     return 0;
 }

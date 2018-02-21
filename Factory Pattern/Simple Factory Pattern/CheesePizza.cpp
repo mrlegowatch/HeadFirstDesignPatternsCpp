@@ -9,23 +9,33 @@
 #include "CheesePizza.hpp"
 #include <iostream>
 
-void CheesePizza::prepare()
+CheesePizza::CheesePizza()
 {
-    std::cout << "Preparing " << std::endl;
+    name = "Cheese Pizza";
+    dough = "Regular crust";
+    sauce = "Marinara Pizza sauce";
+    toppings.push_back("Fresh mozzarella");
+    toppings.push_back("Parmesan");
 }
 
-void CheesePizza::bake()
-{
-    std::cout << "Baking " << std::endl;
-}
 
-void CheesePizza::cut()
-{
-    std::cout << "Cutting " << std::endl;
-}
-
-void CheesePizza::box()
-{
-    std::cout << "Boxing " << std::endl;
-}
-
+//void CheesePizza::prepare() override
+//{
+//    std::cout << "Preparing " << std::endl;
+//}
+//
+//void CheesePizza::bake() override
+//{
+//    std::cout << "Baking " << std::endl;
+//}
+//
+//void CheesePizza::cut() override
+//{
+//    std::cout << "Cutting " << std::endl;
+//}
+//
+//void CheesePizza::box() override
+//{
+//    std::cout << "Boxing " << std::endl;
+//}
+//
