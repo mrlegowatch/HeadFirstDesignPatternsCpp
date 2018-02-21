@@ -27,6 +27,9 @@
 		EE85C760203CD73900F4FACE /* PizzaStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE85C75F203CD73900F4FACE /* PizzaStore.cpp */; };
 		EE85C763203DACC100F4FACE /* NYStyleCheesePizza.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE85C761203DACC100F4FACE /* NYStyleCheesePizza.cpp */; };
 		EE85C766203DB0A900F4FACE /* NYStylePepperoniPizza.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE85C764203DB0A900F4FACE /* NYStylePepperoniPizza.cpp */; };
+		EE9BF0D1203DB70B00BDEB79 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF0D0203DB70B00BDEB79 /* main.cpp */; };
+		EE9BF0D7203DB94900BDEB79 /* PizzaStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF0D5203DB94900BDEB79 /* PizzaStore.cpp */; };
+		EE9BF0DA203DB9AF00BDEB79 /* Pizza.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF0D8203DB9AF00BDEB79 /* Pizza.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +43,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EE78A3452033A8F400E09044 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EE9BF0CC203DB70B00BDEB79 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -109,6 +121,12 @@
 		EE85C762203DACC100F4FACE /* NYStyleCheesePizza.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NYStyleCheesePizza.hpp; sourceTree = "<group>"; };
 		EE85C764203DB0A900F4FACE /* NYStylePepperoniPizza.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NYStylePepperoniPizza.cpp; sourceTree = "<group>"; };
 		EE85C765203DB0A900F4FACE /* NYStylePepperoniPizza.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NYStylePepperoniPizza.hpp; sourceTree = "<group>"; };
+		EE9BF0CE203DB70B00BDEB79 /* AbstractFactoryShenanigans */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractFactoryShenanigans; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9BF0D0203DB70B00BDEB79 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE9BF0D5203DB94900BDEB79 /* PizzaStore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PizzaStore.cpp; sourceTree = "<group>"; };
+		EE9BF0D6203DB94900BDEB79 /* PizzaStore.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PizzaStore.hpp; sourceTree = "<group>"; };
+		EE9BF0D8203DB9AF00BDEB79 /* Pizza.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pizza.cpp; sourceTree = "<group>"; };
+		EE9BF0D9203DB9AF00BDEB79 /* Pizza.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pizza.hpp; sourceTree = "<group>"; };
 		EEEDEEC120337B7100E8C942 /* MultiplePizzaTypes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MultiplePizzaTypes; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEDEECC20337B8B00E8C942 /* OnePizzaType */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OnePizzaType; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -122,6 +140,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EE78A3442033A8F400E09044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9BF0CB203DB70B00BDEB79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -152,6 +177,7 @@
 				EEEDEECD20337B8B00E8C942 /* OnePizzaType */,
 				B69413F420273E03008A03E0 /* Simple Factory Pattern */,
 				EE78A3482033A8F400E09044 /* PizzaStoreFranchise */,
+				EE9BF0CF203DB70B00BDEB79 /* AbstractFactoryShenanigans */,
 				B69413F320273E03008A03E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -163,6 +189,7 @@
 				EEEDEEC120337B7100E8C942 /* MultiplePizzaTypes */,
 				EEEDEECC20337B8B00E8C942 /* OnePizzaType */,
 				EE78A3472033A8F400E09044 /* PizzaStoreFranchise */,
+				EE9BF0CE203DB70B00BDEB79 /* AbstractFactoryShenanigans */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,10 +234,10 @@
 				EE78A3492033A8F400E09044 /* main.cpp */,
 				EE85C75B203CD5F800F4FACE /* NYPizzaStore.hpp */,
 				EE85C75A203CD5F800F4FACE /* NYPizzaStore.cpp */,
-				EE85C761203DACC100F4FACE /* NYStyleCheesePizza.cpp */,
-				EE85C764203DB0A900F4FACE /* NYStylePepperoniPizza.cpp */,
-				EE85C765203DB0A900F4FACE /* NYStylePepperoniPizza.hpp */,
 				EE85C762203DACC100F4FACE /* NYStyleCheesePizza.hpp */,
+				EE85C761203DACC100F4FACE /* NYStyleCheesePizza.cpp */,
+				EE85C765203DB0A900F4FACE /* NYStylePepperoniPizza.hpp */,
+				EE85C764203DB0A900F4FACE /* NYStylePepperoniPizza.cpp */,
 			);
 			path = PizzaStoreFranchise;
 			sourceTree = "<group>";
@@ -222,6 +249,18 @@
 				EE85C74B2034821D00F4FACE /* MultiplePizzaTypes.hpp */,
 			);
 			path = MultiplePizzaTypes;
+			sourceTree = "<group>";
+		};
+		EE9BF0CF203DB70B00BDEB79 /* AbstractFactoryShenanigans */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BF0D0203DB70B00BDEB79 /* main.cpp */,
+				EE9BF0D5203DB94900BDEB79 /* PizzaStore.cpp */,
+				EE9BF0D6203DB94900BDEB79 /* PizzaStore.hpp */,
+				EE9BF0D8203DB9AF00BDEB79 /* Pizza.cpp */,
+				EE9BF0D9203DB9AF00BDEB79 /* Pizza.hpp */,
+			);
+			path = AbstractFactoryShenanigans;
 			sourceTree = "<group>";
 		};
 		EEEDEECD20337B8B00E8C942 /* OnePizzaType */ = {
@@ -268,6 +307,23 @@
 			name = PizzaStoreFranchise;
 			productName = PizzaStoreFranchise;
 			productReference = EE78A3472033A8F400E09044 /* PizzaStoreFranchise */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE9BF0CD203DB70B00BDEB79 /* AbstractFactoryShenanigans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9BF0D2203DB70B00BDEB79 /* Build configuration list for PBXNativeTarget "AbstractFactoryShenanigans" */;
+			buildPhases = (
+				EE9BF0CA203DB70B00BDEB79 /* Sources */,
+				EE9BF0CB203DB70B00BDEB79 /* Frameworks */,
+				EE9BF0CC203DB70B00BDEB79 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactoryShenanigans;
+			productName = AbstractFactoryShenanigans;
+			productReference = EE9BF0CE203DB70B00BDEB79 /* AbstractFactoryShenanigans */;
 			productType = "com.apple.product-type.tool";
 		};
 		EEEDEEC020337B7100E8C942 /* MultiplePizzaTypes */ = {
@@ -321,6 +377,10 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					EE9BF0CD203DB70B00BDEB79 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					EEEDEEC020337B7100E8C942 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -347,6 +407,7 @@
 				EEEDEEC020337B7100E8C942 /* MultiplePizzaTypes */,
 				EEEDEECB20337B8B00E8C942 /* OnePizzaType */,
 				EE78A3462033A8F400E09044 /* PizzaStoreFranchise */,
+				EE9BF0CD203DB70B00BDEB79 /* AbstractFactoryShenanigans */,
 			);
 		};
 /* End PBXProject section */
@@ -381,6 +442,16 @@
 				EE85C75E203CD64E00F4FACE /* ChicagoPizzaStore.cpp in Sources */,
 				EE78A3852033AD7600E09044 /* ChicagoStylePepperoniPizza.cpp in Sources */,
 				EE85C763203DACC100F4FACE /* NYStyleCheesePizza.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9BF0CA203DB70B00BDEB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9BF0DA203DB9AF00BDEB79 /* Pizza.cpp in Sources */,
+				EE9BF0D7203DB94900BDEB79 /* PizzaStore.cpp in Sources */,
+				EE9BF0D1203DB70B00BDEB79 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +615,22 @@
 			};
 			name = Release;
 		};
+		EE9BF0D3203DB70B00BDEB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE9BF0D4203DB70B00BDEB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EEEDEEC620337B7100E8C942 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -602,6 +689,15 @@
 			buildConfigurations = (
 				EE78A34C2033A8F400E09044 /* Debug */,
 				EE78A34D2033A8F400E09044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9BF0D2203DB70B00BDEB79 /* Build configuration list for PBXNativeTarget "AbstractFactoryShenanigans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9BF0D3203DB70B00BDEB79 /* Debug */,
+				EE9BF0D4203DB70B00BDEB79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

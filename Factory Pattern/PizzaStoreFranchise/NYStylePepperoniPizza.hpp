@@ -9,6 +9,14 @@
 #ifndef NYStylePepperoniPizza_hpp
 #define NYStylePepperoniPizza_hpp
 
-#include <stdio.h>
+#include "Pizza.hpp"
+
+class NYStylePepperoniPizza: public Pizza
+{
+public:
+
+    NYStylePepperoniPizza();
+
+};
 
 #endif /* NYStylePepperoniPizza_hpp */
