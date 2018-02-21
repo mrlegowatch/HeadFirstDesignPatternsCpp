@@ -7,7 +7,6 @@
 //
 
 #include "ChicagoStyleCheesePizza.hpp"
-#include <iostream>
 
 ChicagoStyleCheesePizza::ChicagoStyleCheesePizza()
 {

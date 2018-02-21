@@ -7,9 +7,9 @@
 //
 
 #include "NYPizzaStore.hpp"
-#include "ChicagoStyleCheesePizza.hpp"
-#include "ChicagoStylePepperoniPizza.hpp"
-#include "ChicagoStyleVeggiePizza.hpp"
+#include "NYStyleCheesePizza.hpp"
+#include "NYStylePepperoniPizza.hpp"
+
 
 std::unique_ptr<Pizza> NYPizzaStore::makePizza(std::string type)
 {
@@ -17,15 +17,11 @@ std::unique_ptr<Pizza> NYPizzaStore::makePizza(std::string type)
 
     if (type == "cheese")
     {
-        pizza = std::make_unique<ChicagoStyleCheesePizza>();
+        pizza = std::make_unique<NYStyleCheesePizza>();
     }
     else if (type == "pepperoni")
     {
-        pizza = std::make_unique<ChicagoStylePepperoniPizza>();
-    }
-    else if (type == "veggie")
-    {
-        pizza = std::make_unique<ChicagoStyleVeggiePizza>();
+        pizza = std::make_unique<NYStylePepperoniPizza>();
     }
     return pizza;
 }
