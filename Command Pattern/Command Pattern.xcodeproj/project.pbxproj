@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6030B8F205ACC3000AD83B7 /* CeilingFan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030B8D205ACC3000AD83B7 /* CeilingFan.cpp */; };
+		B6030B92205AD9D400AD83B7 /* CeilingFanCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030B90205AD9D400AD83B7 /* CeilingFanCommand.cpp */; };
+		B6030B95205AF98700AD83B7 /* GarageDoor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030B93205AF98700AD83B7 /* GarageDoor.cpp */; };
+		B6030B98205AF9A000AD83B7 /* GarageDoorCloseCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030B96205AF9A000AD83B7 /* GarageDoorCloseCommand.cpp */; };
+		B6030B9B205AF9B200AD83B7 /* GarageDoorOpenCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030B99205AF9B200AD83B7 /* GarageDoorOpenCommand.cpp */; };
+		B6030B9E205B55CC00AD83B7 /* HotTub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030B9C205B55CC00AD83B7 /* HotTub.cpp */; };
+		B6030BA1205B55DC00AD83B7 /* HotTubOffCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030B9F205B55DC00AD83B7 /* HotTubOffCommand.cpp */; };
+		B6030BA4205B55E800AD83B7 /* HotTubOnCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BA2205B55E800AD83B7 /* HotTubOnCommand.cpp */; };
+		B6030BA7205B584800AD83B7 /* Light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BA5205B584800AD83B7 /* Light.cpp */; };
+		B6030BAA205B585A00AD83B7 /* LightDimCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BA8205B585A00AD83B7 /* LightDimCommand.cpp */; };
+		B6030BAD205B586400AD83B7 /* LightOffCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BAB205B586400AD83B7 /* LightOffCommand.cpp */; };
+		B6030BB0205B586E00AD83B7 /* LightOnCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BAE205B586E00AD83B7 /* LightOnCommand.cpp */; };
+		B6030BB3205BE0B300AD83B7 /* MacroCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BB1205BE0B300AD83B7 /* MacroCommand.cpp */; };
+		B6030BB6205BFE3200AD83B7 /* Stereo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BB4205BFE3200AD83B7 /* Stereo.cpp */; };
+		B6030BB9205BFE4400AD83B7 /* StereoOnCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BB7205BFE4400AD83B7 /* StereoOnCommand.cpp */; };
+		B6030BBC205BFE5000AD83B7 /* StereoOffCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BBA205BFE5000AD83B7 /* StereoOffCommand.cpp */; };
+		B6030BBF205BFE6600AD83B7 /* StereoOnWithCDCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BBD205BFE6600AD83B7 /* StereoOnWithCDCommand.cpp */; };
+		B6030BC2205C03EE00AD83B7 /* TV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BC0205C03EE00AD83B7 /* TV.cpp */; };
+		B6030BC5205C03F800AD83B7 /* TVOffCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BC3205C03F800AD83B7 /* TVOffCommand.cpp */; };
+		B6030BC8205C040200AD83B7 /* TVOnCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BC6205C040200AD83B7 /* TVOnCommand.cpp */; };
+		B6030BCB205C041700AD83B7 /* RemoteControlWithUndo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BC9205C041700AD83B7 /* RemoteControlWithUndo.cpp */; };
+		B6030BCE205C052E00AD83B7 /* NoCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6030BCC205C052E00AD83B7 /* NoCommand.cpp */; };
 		B694141C20273F82008A03E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B694141B20273F82008A03E0 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +45,51 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B6030B8C205ACB9C00AD83B7 /* Command.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Command.hpp; sourceTree = "<group>"; };
+		B6030B8D205ACC3000AD83B7 /* CeilingFan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CeilingFan.cpp; sourceTree = "<group>"; };
+		B6030B8E205ACC3000AD83B7 /* CeilingFan.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CeilingFan.hpp; sourceTree = "<group>"; };
+		B6030B90205AD9D400AD83B7 /* CeilingFanCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CeilingFanCommand.cpp; sourceTree = "<group>"; };
+		B6030B91205AD9D400AD83B7 /* CeilingFanCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CeilingFanCommand.hpp; sourceTree = "<group>"; };
+		B6030B93205AF98700AD83B7 /* GarageDoor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GarageDoor.cpp; sourceTree = "<group>"; };
+		B6030B94205AF98700AD83B7 /* GarageDoor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GarageDoor.hpp; sourceTree = "<group>"; };
+		B6030B96205AF9A000AD83B7 /* GarageDoorCloseCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GarageDoorCloseCommand.cpp; sourceTree = "<group>"; };
+		B6030B97205AF9A000AD83B7 /* GarageDoorCloseCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GarageDoorCloseCommand.hpp; sourceTree = "<group>"; };
+		B6030B99205AF9B200AD83B7 /* GarageDoorOpenCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GarageDoorOpenCommand.cpp; sourceTree = "<group>"; };
+		B6030B9A205AF9B200AD83B7 /* GarageDoorOpenCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GarageDoorOpenCommand.hpp; sourceTree = "<group>"; };
+		B6030B9C205B55CC00AD83B7 /* HotTub.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HotTub.cpp; sourceTree = "<group>"; };
+		B6030B9D205B55CC00AD83B7 /* HotTub.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HotTub.hpp; sourceTree = "<group>"; };
+		B6030B9F205B55DC00AD83B7 /* HotTubOffCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HotTubOffCommand.cpp; sourceTree = "<group>"; };
+		B6030BA0205B55DC00AD83B7 /* HotTubOffCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HotTubOffCommand.hpp; sourceTree = "<group>"; };
+		B6030BA2205B55E800AD83B7 /* HotTubOnCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HotTubOnCommand.cpp; sourceTree = "<group>"; };
+		B6030BA3205B55E800AD83B7 /* HotTubOnCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HotTubOnCommand.hpp; sourceTree = "<group>"; };
+		B6030BA5205B584800AD83B7 /* Light.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Light.cpp; sourceTree = "<group>"; };
+		B6030BA6205B584800AD83B7 /* Light.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Light.hpp; sourceTree = "<group>"; };
+		B6030BA8205B585A00AD83B7 /* LightDimCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LightDimCommand.cpp; sourceTree = "<group>"; };
+		B6030BA9205B585A00AD83B7 /* LightDimCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LightDimCommand.hpp; sourceTree = "<group>"; };
+		B6030BAB205B586400AD83B7 /* LightOffCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LightOffCommand.cpp; sourceTree = "<group>"; };
+		B6030BAC205B586400AD83B7 /* LightOffCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LightOffCommand.hpp; sourceTree = "<group>"; };
+		B6030BAE205B586E00AD83B7 /* LightOnCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LightOnCommand.cpp; sourceTree = "<group>"; };
+		B6030BAF205B586E00AD83B7 /* LightOnCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LightOnCommand.hpp; sourceTree = "<group>"; };
+		B6030BB1205BE0B300AD83B7 /* MacroCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MacroCommand.cpp; sourceTree = "<group>"; };
+		B6030BB2205BE0B300AD83B7 /* MacroCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MacroCommand.hpp; sourceTree = "<group>"; };
+		B6030BB4205BFE3200AD83B7 /* Stereo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stereo.cpp; sourceTree = "<group>"; };
+		B6030BB5205BFE3200AD83B7 /* Stereo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stereo.hpp; sourceTree = "<group>"; };
+		B6030BB7205BFE4400AD83B7 /* StereoOnCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StereoOnCommand.cpp; sourceTree = "<group>"; };
+		B6030BB8205BFE4400AD83B7 /* StereoOnCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StereoOnCommand.hpp; sourceTree = "<group>"; };
+		B6030BBA205BFE5000AD83B7 /* StereoOffCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StereoOffCommand.cpp; sourceTree = "<group>"; };
+		B6030BBB205BFE5000AD83B7 /* StereoOffCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StereoOffCommand.hpp; sourceTree = "<group>"; };
+		B6030BBD205BFE6600AD83B7 /* StereoOnWithCDCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StereoOnWithCDCommand.cpp; sourceTree = "<group>"; };
+		B6030BBE205BFE6600AD83B7 /* StereoOnWithCDCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StereoOnWithCDCommand.hpp; sourceTree = "<group>"; };
+		B6030BC0205C03EE00AD83B7 /* TV.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TV.cpp; sourceTree = "<group>"; };
+		B6030BC1205C03EE00AD83B7 /* TV.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TV.hpp; sourceTree = "<group>"; };
+		B6030BC3205C03F800AD83B7 /* TVOffCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TVOffCommand.cpp; sourceTree = "<group>"; };
+		B6030BC4205C03F800AD83B7 /* TVOffCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TVOffCommand.hpp; sourceTree = "<group>"; };
+		B6030BC6205C040200AD83B7 /* TVOnCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TVOnCommand.cpp; sourceTree = "<group>"; };
+		B6030BC7205C040200AD83B7 /* TVOnCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TVOnCommand.hpp; sourceTree = "<group>"; };
+		B6030BC9205C041700AD83B7 /* RemoteControlWithUndo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoteControlWithUndo.cpp; sourceTree = "<group>"; };
+		B6030BCA205C041700AD83B7 /* RemoteControlWithUndo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoteControlWithUndo.hpp; sourceTree = "<group>"; };
+		B6030BCC205C052E00AD83B7 /* NoCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NoCommand.cpp; sourceTree = "<group>"; };
+		B6030BCD205C052E00AD83B7 /* NoCommand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NoCommand.hpp; sourceTree = "<group>"; };
 		B694141820273F82008A03E0 /* Command Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Command Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B694141B20273F82008A03E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +125,51 @@
 			isa = PBXGroup;
 			children = (
 				B694141B20273F82008A03E0 /* main.cpp */,
+				B6030B8D205ACC3000AD83B7 /* CeilingFan.cpp */,
+				B6030B8E205ACC3000AD83B7 /* CeilingFan.hpp */,
+				B6030B90205AD9D400AD83B7 /* CeilingFanCommand.cpp */,
+				B6030B91205AD9D400AD83B7 /* CeilingFanCommand.hpp */,
+				B6030B8C205ACB9C00AD83B7 /* Command.hpp */,
+				B6030B93205AF98700AD83B7 /* GarageDoor.cpp */,
+				B6030B94205AF98700AD83B7 /* GarageDoor.hpp */,
+				B6030B96205AF9A000AD83B7 /* GarageDoorCloseCommand.cpp */,
+				B6030B97205AF9A000AD83B7 /* GarageDoorCloseCommand.hpp */,
+				B6030B99205AF9B200AD83B7 /* GarageDoorOpenCommand.cpp */,
+				B6030B9A205AF9B200AD83B7 /* GarageDoorOpenCommand.hpp */,
+				B6030B9C205B55CC00AD83B7 /* HotTub.cpp */,
+				B6030B9D205B55CC00AD83B7 /* HotTub.hpp */,
+				B6030B9F205B55DC00AD83B7 /* HotTubOffCommand.cpp */,
+				B6030BA0205B55DC00AD83B7 /* HotTubOffCommand.hpp */,
+				B6030BA2205B55E800AD83B7 /* HotTubOnCommand.cpp */,
+				B6030BA3205B55E800AD83B7 /* HotTubOnCommand.hpp */,
+				B6030BA5205B584800AD83B7 /* Light.cpp */,
+				B6030BA6205B584800AD83B7 /* Light.hpp */,
+				B6030BA8205B585A00AD83B7 /* LightDimCommand.cpp */,
+				B6030BA9205B585A00AD83B7 /* LightDimCommand.hpp */,
+				B6030BAB205B586400AD83B7 /* LightOffCommand.cpp */,
+				B6030BAC205B586400AD83B7 /* LightOffCommand.hpp */,
+				B6030BAE205B586E00AD83B7 /* LightOnCommand.cpp */,
+				B6030BAF205B586E00AD83B7 /* LightOnCommand.hpp */,
+				B6030BB1205BE0B300AD83B7 /* MacroCommand.cpp */,
+				B6030BB2205BE0B300AD83B7 /* MacroCommand.hpp */,
+				B6030BCC205C052E00AD83B7 /* NoCommand.cpp */,
+				B6030BCD205C052E00AD83B7 /* NoCommand.hpp */,
+				B6030BC9205C041700AD83B7 /* RemoteControlWithUndo.cpp */,
+				B6030BCA205C041700AD83B7 /* RemoteControlWithUndo.hpp */,
+				B6030BB4205BFE3200AD83B7 /* Stereo.cpp */,
+				B6030BB5205BFE3200AD83B7 /* Stereo.hpp */,
+				B6030BBA205BFE5000AD83B7 /* StereoOffCommand.cpp */,
+				B6030BBB205BFE5000AD83B7 /* StereoOffCommand.hpp */,
+				B6030BB7205BFE4400AD83B7 /* StereoOnCommand.cpp */,
+				B6030BB8205BFE4400AD83B7 /* StereoOnCommand.hpp */,
+				B6030BBD205BFE6600AD83B7 /* StereoOnWithCDCommand.cpp */,
+				B6030BBE205BFE6600AD83B7 /* StereoOnWithCDCommand.hpp */,
+				B6030BC0205C03EE00AD83B7 /* TV.cpp */,
+				B6030BC1205C03EE00AD83B7 /* TV.hpp */,
+				B6030BC3205C03F800AD83B7 /* TVOffCommand.cpp */,
+				B6030BC4205C03F800AD83B7 /* TVOffCommand.hpp */,
+				B6030BC6205C040200AD83B7 /* TVOnCommand.cpp */,
+				B6030BC7205C040200AD83B7 /* TVOnCommand.hpp */,
 			);
 			path = "Command Pattern";
 			sourceTree = "<group>";
@@ -119,7 +231,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6030BA7205B584800AD83B7 /* Light.cpp in Sources */,
+				B6030BC5205C03F800AD83B7 /* TVOffCommand.cpp in Sources */,
 				B694141C20273F82008A03E0 /* main.cpp in Sources */,
+				B6030BB9205BFE4400AD83B7 /* StereoOnCommand.cpp in Sources */,
+				B6030BB6205BFE3200AD83B7 /* Stereo.cpp in Sources */,
+				B6030BAD205B586400AD83B7 /* LightOffCommand.cpp in Sources */,
+				B6030BBF205BFE6600AD83B7 /* StereoOnWithCDCommand.cpp in Sources */,
+				B6030BCE205C052E00AD83B7 /* NoCommand.cpp in Sources */,
+				B6030BCB205C041700AD83B7 /* RemoteControlWithUndo.cpp in Sources */,
+				B6030B98205AF9A000AD83B7 /* GarageDoorCloseCommand.cpp in Sources */,
+				B6030BAA205B585A00AD83B7 /* LightDimCommand.cpp in Sources */,
+				B6030B9E205B55CC00AD83B7 /* HotTub.cpp in Sources */,
+				B6030B8F205ACC3000AD83B7 /* CeilingFan.cpp in Sources */,
+				B6030BB0205B586E00AD83B7 /* LightOnCommand.cpp in Sources */,
+				B6030B95205AF98700AD83B7 /* GarageDoor.cpp in Sources */,
+				B6030BBC205BFE5000AD83B7 /* StereoOffCommand.cpp in Sources */,
+				B6030BA1205B55DC00AD83B7 /* HotTubOffCommand.cpp in Sources */,
+				B6030BB3205BE0B300AD83B7 /* MacroCommand.cpp in Sources */,
+				B6030B9B205AF9B200AD83B7 /* GarageDoorOpenCommand.cpp in Sources */,
+				B6030B92205AD9D400AD83B7 /* CeilingFanCommand.cpp in Sources */,
+				B6030BA4205B55E800AD83B7 /* HotTubOnCommand.cpp in Sources */,
+				B6030BC8205C040200AD83B7 /* TVOnCommand.cpp in Sources */,
+				B6030BC2205C03EE00AD83B7 /* TV.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
