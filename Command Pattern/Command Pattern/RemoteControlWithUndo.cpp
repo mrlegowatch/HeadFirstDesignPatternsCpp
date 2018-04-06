@@ -21,17 +21,17 @@ RemoteControlWithUndo::RemoteControlWithUndo() {
     undoCommand = nullptr;
 }
 
-void RemoteControlWithUndo::setCommand(int slot, std::shared_ptr<Command> onCommand, std::shared_ptr<Command> offCommand) {
+void RemoteControlWithUndo::setCommand(std::size_t slot, std::shared_ptr<Command> onCommand, std::shared_ptr<Command> offCommand) {
     onCommands[slot] = onCommand;
     offCommands[slot] = offCommand;
 }
 
-void RemoteControlWithUndo::onButtonWasPushed(int slot) {
+void RemoteControlWithUndo::onButtonWasPushed(std::size_t slot) {
     onCommands[slot]->execute();
     undoCommand = onCommands[slot];
 }
 
-void RemoteControlWithUndo::offButtonWasPushed(int slot) {
+void RemoteControlWithUndo::offButtonWasPushed(std::size_t slot) {
     offCommands[slot]->execute();
     undoCommand = offCommands[slot];
 }
@@ -40,17 +40,19 @@ void RemoteControlWithUndo::undoButtonWasPushed() {
     undoCommand->undo();
 }
 
-std::string RemoteControlWithUndo::toString() const {
-    std::stringstream desc;
+std::ostream& operator<<(std::ostream& os, const RemoteControlWithUndo& remote)
+{
+    //std::stringstream desc;
     
-    desc << "\n----------- Remote Control -----------\n";
-    for (int index = 0; index < onCommands.size(); ++index) {
-        auto onCommand = onCommands[index];
-        auto offCommand = offCommands[index];
-        desc << "[slot " << index << "] " << onCommand << "    " << offCommand << std::endl;
+    os << "\n----------- Remote Control -----------\n";
+    for (int index = 0; index < remote.onCommands.size(); ++index) {
+        auto onCommand = remote.onCommands[index];
+        auto offCommand = remote.offCommands[index];
+        os << "[slot " << index << "] " << onCommand << "    " << offCommand << std::endl;
     }
-   
-    desc << "[undo] " << undoCommand << std::endl;
     
-    return desc.str();
+    os << "[undo] " << remote.undoCommand << std::endl;
+    
+    return os;
 }
+

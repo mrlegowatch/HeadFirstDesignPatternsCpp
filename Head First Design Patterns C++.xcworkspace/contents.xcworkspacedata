@@ -22,7 +22,4 @@
    <FileRef
       location = "group:Adapter and Facade/Adapter and Facade.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:State Pattern/State Pattern.xcodeproj">
-   </FileRef>
 </Workspace>

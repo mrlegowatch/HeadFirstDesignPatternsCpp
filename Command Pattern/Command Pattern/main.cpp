@@ -36,11 +36,11 @@ int main(int argc, const char * argv[]) {
     
     remoteControl.onButtonWasPushed(0);
     remoteControl.offButtonWasPushed(0);
-    std::cout << remoteControl.toString();
+    std::cout << remoteControl;
     remoteControl.undoButtonWasPushed();
     remoteControl.offButtonWasPushed(0);
     remoteControl.onButtonWasPushed(0);
-    std::cout << remoteControl.toString();
+    std::cout << remoteControl;
     remoteControl.undoButtonWasPushed();
     
     auto ceilingFan = std::make_shared<CeilingFan>("Living Room");
@@ -54,11 +54,11 @@ int main(int argc, const char * argv[]) {
     
     remoteControl.onButtonWasPushed(0);
     remoteControl.offButtonWasPushed(0);
-    std::cout << remoteControl.toString();
+    std::cout << remoteControl;
     remoteControl.undoButtonWasPushed();
     
     remoteControl.onButtonWasPushed(1);
-    std::cout << remoteControl.toString();
+    std::cout << remoteControl;
     remoteControl.undoButtonWasPushed();
     
     //: The following demonstrates the use of the macro command with undo.
@@ -92,7 +92,7 @@ int main(int argc, const char * argv[]) {
     
     //: Finally, we just need ot push some buttons and see if this works.
     
-    std::cout << std::endl << remoteControl.toString() << std::endl;
+    std::cout << std::endl << remoteControl << std::endl;
     std::cout << "--------- Pushing Macro On ---------" << std::endl;
     remoteControl.onButtonWasPushed(2);
     std::cout << "--------- Pushing Macro Off --------"  << std::endl;

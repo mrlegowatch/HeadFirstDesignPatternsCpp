@@ -12,7 +12,8 @@
 
 LightDimCommand::LightDimCommand(const std::shared_ptr<Light>& light, int level) :
     light(light),
-    level(level) {
+    level(level),
+    previousLevel(Light::invalidDimmedLevel) {
 }
 
 void LightDimCommand::execute() {

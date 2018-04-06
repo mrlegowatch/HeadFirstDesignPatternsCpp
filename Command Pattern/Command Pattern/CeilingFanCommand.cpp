@@ -11,9 +11,9 @@
 #include "CeilingFanCommand.hpp"
 
 CeilingFanCommand::CeilingFanCommand(const std::shared_ptr<CeilingFan>& ceilingFan, CeilingFan::Speed speed) :
-    Command(),
     ceilingFan(ceilingFan),
-    newSpeed(speed) {
+    newSpeed(speed),
+    previousSpeed(CeilingFan::Speed::invalid) {
 }
 
 void CeilingFanCommand::execute() {

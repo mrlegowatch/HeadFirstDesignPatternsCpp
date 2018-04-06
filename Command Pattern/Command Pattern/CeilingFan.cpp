@@ -30,10 +30,11 @@ std::string CeilingFan::getDescription() const {
     std::string state;
     
     switch (speed) {
-        case off: state = "off"; break;
-        case low: state = "on low"; break;
-        case medium: state = "on medium"; break;
-        case high: state = "on high"; break;
+        case Speed::off: state = "off"; break;
+        case Speed::low: state = "on low"; break;
+        case Speed::medium: state = "on medium"; break;
+        case Speed::high: state = "on high"; break;
+        case Speed::invalid: state = "INVALID"; break;
     }
     
     return location + " Ceiling Fan is " + state;

@@ -25,7 +25,12 @@ void Light::off() {
     dimmed(0);
 }
 
+const int Light::invalidDimmedLevel = -1;
+
 void Light::dimmed(int level) {
+    // IN C++: check for valid range. For example, invalidDimmedLevel (-1) is not in the valid range.
+    if (level < 0 || level > 100) { return; }
+    
     this->level = level;
     
     switch (level) {
