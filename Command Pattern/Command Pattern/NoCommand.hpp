@@ -13,9 +13,9 @@
 
 class NoCommand: public Command {
     
-    void execute() override;
+    void execute() override { }
     
-    void undo() override;
+    void undo() override { }
     
 };
 

@@ -11,20 +11,10 @@
 #ifndef HotTubOffCommand_hpp
 #define HotTubOffCommand_hpp
 
-#include "Command.hpp"
+#include "OnOffCommand.hpp"
 
 #include "HotTub.hpp"
 
-class HotTubOffCommand: public Command {
-public:
-    HotTubOffCommand(const std::shared_ptr<HotTub>& hotTub);
-    
-    void execute() override;
-    
-    void undo() override;
-    
-private:
-    std::shared_ptr<HotTub> hotTub;
-};
+using HotTubOffCommand = OnOffCommand<HotTub, false>;
 
 #endif /* HotTubOffCommand_hpp */

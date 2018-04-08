@@ -24,8 +24,7 @@ void MacroCommand::execute() {
     
 void MacroCommand::undo() {
     // Make sure to "undo" the commands in reverse order.
-    for (auto iterator = commands.rbegin(); iterator != commands.rend(); ++iterator) {
-        auto command = *iterator;
+    std::for_each(commands.rbegin(), commands.rend(), [](auto& command) {
         command->undo();
-    }
+    });
 }

@@ -24,5 +24,7 @@ void CeilingFanCommand::execute() {
 
 void CeilingFanCommand::undo() {
     // To undo, we set the speed of the fan back to its previous speed.
+    // IN C++: Check for invalid speed (if undo() is called before execute() is called)
+    if (previousSpeed == CeilingFan::Speed::invalid) { return; }
     ceilingFan->setSpeed(previousSpeed);
 }

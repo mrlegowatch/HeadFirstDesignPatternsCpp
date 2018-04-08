@@ -22,5 +22,7 @@ void LightDimCommand::execute() {
 }
 
 void LightDimCommand::undo() {
+    // IN C++: check for invalid dimmed level and exit early (undo() called before execute() called).
+    if (previousLevel == Light::invalidDimmedLevel) { return; }
     light->dimmed(previousLevel);
 }

@@ -11,20 +11,10 @@
 #ifndef StereoOnCommand_hpp
 #define StereoOnCommand_hpp
 
-#include "Command.hpp"
+#include "OnOffCommand.hpp"
 
 #include "Stereo.hpp"
 
-class StereoOnCommand: public Command {
-public:
-    StereoOnCommand(const std::shared_ptr<Stereo>& stereo);
-    
-    void execute() override;
-    
-    void undo() override;
-    
-private:
-    std::shared_ptr<Stereo> stereo;
-};
+using StereoOnCommand = OnOffCommand<Stereo, true>;
 
 #endif /* StereoOnCommand_hpp */

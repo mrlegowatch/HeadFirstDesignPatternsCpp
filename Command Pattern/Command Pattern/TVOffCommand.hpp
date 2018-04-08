@@ -11,20 +11,10 @@
 #ifndef TVOffCommand_hpp
 #define TVOffCommand_hpp
 
-#include "Command.hpp"
+#include "OnOffCommand.hpp"
 
 #include "TV.hpp"
 
-class TVOffCommand: public Command {
-public:
-    TVOffCommand(const std::shared_ptr<TV>& tv);
-    
-    void execute() override;
-    
-    void undo() override;
-    
-private:
-    std::shared_ptr<TV> tv;
-};
+using TVOffCommand = OnOffCommand<TV, false>;
 
 #endif /* TVOffCommand_hpp */
