@@ -9,5 +9,11 @@ Each chapter has its own Xcode project and C++ source files that produce a comma
 
 ## Chapters
 * Strategy Pattern
+* Observer Pattern
+* Decorator Pattern
+* Factory Pattern *(under construction)*
+* Singleton Pattern *(under construction, see branch)*
+* Command Pattern
+* Adapter and Facade *(not started)*
 
 (more coming...)
