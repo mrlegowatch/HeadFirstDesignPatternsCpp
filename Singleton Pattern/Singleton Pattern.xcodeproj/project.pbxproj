@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B694140920273E21008A03E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B694140820273E21008A03E0 /* main.cpp */; };
+		D79C9496206BCCBB009A5E4D /* ClassicSingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D79C9494206BCCBB009A5E4D /* ClassicSingleton.cpp */; };
+		D79C9499206BDB67009A5E4D /* MyersSingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D79C9497206BDB67009A5E4D /* MyersSingleton.cpp */; };
+		D79C949C206BDD0E009A5E4D /* ThreadSafeClassicSingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D79C949A206BDD0E009A5E4D /* ThreadSafeClassicSingleton.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		B694140520273E21008A03E0 /* Singleton Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Singleton Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B694140820273E21008A03E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D79C9494206BCCBB009A5E4D /* ClassicSingleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassicSingleton.cpp; sourceTree = "<group>"; };
+		D79C9495206BCCBB009A5E4D /* ClassicSingleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClassicSingleton.hpp; sourceTree = "<group>"; };
+		D79C9497206BDB67009A5E4D /* MyersSingleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyersSingleton.cpp; sourceTree = "<group>"; };
+		D79C9498206BDB67009A5E4D /* MyersSingleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyersSingleton.hpp; sourceTree = "<group>"; };
+		D79C949A206BDD0E009A5E4D /* ThreadSafeClassicSingleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadSafeClassicSingleton.cpp; sourceTree = "<group>"; };
+		D79C949B206BDD0E009A5E4D /* ThreadSafeClassicSingleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ThreadSafeClassicSingleton.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				B694140820273E21008A03E0 /* main.cpp */,
+				D79C9494206BCCBB009A5E4D /* ClassicSingleton.cpp */,
+				D79C9495206BCCBB009A5E4D /* ClassicSingleton.hpp */,
+				D79C9497206BDB67009A5E4D /* MyersSingleton.cpp */,
+				D79C9498206BDB67009A5E4D /* MyersSingleton.hpp */,
+				D79C949A206BDD0E009A5E4D /* ThreadSafeClassicSingleton.cpp */,
+				D79C949B206BDD0E009A5E4D /* ThreadSafeClassicSingleton.hpp */,
 			);
 			path = "Singleton Pattern";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79C9499206BDB67009A5E4D /* MyersSingleton.cpp in Sources */,
+				D79C9496206BCCBB009A5E4D /* ClassicSingleton.cpp in Sources */,
 				B694140920273E21008A03E0 /* main.cpp in Sources */,
+				D79C949C206BDD0E009A5E4D /* ThreadSafeClassicSingleton.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +257,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
