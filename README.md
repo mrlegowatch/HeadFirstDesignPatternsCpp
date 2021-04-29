@@ -16,4 +16,4 @@ Each chapter has its own Xcode project and C++ source files that produce a comma
 * Command Pattern
 * Adapter and Facade *(not started)*
 
-*(more coming...)*
+Note: our book club ended before we completed the code for the other chapters, but we hope this was helpful to you.
